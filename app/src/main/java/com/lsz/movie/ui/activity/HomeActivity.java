@@ -6,10 +6,10 @@ import android.widget.RadioGroup;
 
 import com.lsz.movie.BaseActivity;
 import com.lsz.movie.R;
-import com.lsz.movie.ui.fragment.BoardMarketFragment;
-import com.lsz.movie.ui.fragment.CinemaFragment;
-import com.lsz.movie.ui.fragment.LibraryFragment;
-import com.lsz.movie.ui.fragment.TicketFragment;
+import com.lsz.movie.ui.fragment.TabBoardMarketFragment;
+import com.lsz.movie.ui.fragment.TabCinemaFragment;
+import com.lsz.movie.ui.fragment.TabLibraryFragment;
+import com.lsz.movie.ui.fragment.TabTicketFragment;
 import com.lsz.movie.util.FragmentTabUtils;
 
 import java.util.ArrayList;
@@ -34,10 +34,10 @@ public class HomeActivity extends BaseActivity {
 
     private void initTab() {
         List<Fragment> fragments = new ArrayList<>();
-        fragments.add(TicketFragment.newInstance());
-        fragments.add(BoardMarketFragment.newInstance());
-        fragments.add(CinemaFragment.newInstance());
-        fragments.add(LibraryFragment.newInstance());
+        fragments.add(TabTicketFragment.newInstance());
+        fragments.add(TabBoardMarketFragment.newInstance());
+        fragments.add(TabCinemaFragment.newInstance());
+        fragments.add(TabLibraryFragment.newInstance());
 
         new FragmentTabUtils(getSupportFragmentManager(), mGroupTab, fragments, R.id.container,
                 null);

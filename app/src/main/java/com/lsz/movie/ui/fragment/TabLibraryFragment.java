@@ -8,11 +8,11 @@ import android.view.ViewGroup;
 import com.lsz.movie.BaseFragment;
 import com.lsz.movie.R;
 
-public class LibraryFragment extends BaseFragment {
+public class TabLibraryFragment extends BaseFragment {
 
-    public static LibraryFragment newInstance() {
+    public static TabLibraryFragment newInstance() {
         Bundle args = new Bundle();
-        LibraryFragment fragment = new LibraryFragment();
+        TabLibraryFragment fragment = new TabLibraryFragment();
         fragment.setArguments(args);
         return fragment;
     }
@@ -20,7 +20,7 @@ public class LibraryFragment extends BaseFragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle
             savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_library, container, false);
+        return inflater.inflate(R.layout.fragment_tab_library, container, false);
     }
 
     @Override

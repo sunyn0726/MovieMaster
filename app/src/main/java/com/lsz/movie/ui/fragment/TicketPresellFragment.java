@@ -8,23 +8,24 @@ import android.view.ViewGroup;
 import com.lsz.movie.BaseFragment;
 import com.lsz.movie.R;
 
-public class BoardMarketFragment extends BaseFragment {
+public class TicketPresellFragment extends BaseFragment {
 
-    public static BoardMarketFragment newInstance() {
+    public static TicketPresellFragment newInstance() {
         Bundle args = new Bundle();
-        BoardMarketFragment fragment = new BoardMarketFragment();
+        TicketPresellFragment fragment = new TicketPresellFragment();
         fragment.setArguments(args);
         return fragment;
     }
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle 
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle
             savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_board_market, container, false);
+        return inflater.inflate(R.layout.fragment_ticket_box_presell, container, false);
     }
 
     @Override
     protected void initView(View view, Bundle savedInstanceState) {
 
     }
+
 }

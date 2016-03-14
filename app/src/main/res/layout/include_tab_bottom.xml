@@ -10,25 +10,25 @@
 
     <RadioButton
         android:id="@+id/rbtn_ticket"
-        style="@style/Style.TabBottom"
+        style="@style/Style.Tab"
         android:drawableTop="@drawable/sel_tab_ticket"
         android:text="@string/tab_ticket"/>
 
     <RadioButton
         android:id="@+id/rbtn_boardmarket"
-        style="@style/Style.TabBottom"
+        style="@style/Style.Tab"
         android:drawableTop="@drawable/sel_tab_boardmarket"
         android:text="@string/tab_boardmarket"/>
 
     <RadioButton
         android:id="@+id/rbtn_cinema"
-        style="@style/Style.TabBottom"
+        style="@style/Style.Tab"
         android:drawableTop="@drawable/sel_tab_cinema"
         android:text="@string/tab_cinema"/>
 
     <RadioButton
         android:id="@+id/rbtn_library"
-        style="@style/Style.TabBottom"
+        style="@style/Style.Tab"
         android:drawableTop="@drawable/sel_tab_library"
         android:text="@string/tab_library"/>
 
