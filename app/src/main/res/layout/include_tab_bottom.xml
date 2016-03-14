@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RadioGroup
+    android:id="@+id/group_tab"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bg_tab"
+    android:orientation="horizontal">
+
+    <RadioButton
+        android:id="@+id/rbtn_ticket"
+        style="@style/Style.TabBottom"
+        android:drawableTop="@drawable/sel_tab_ticket"
+        android:text="@string/tab_ticket"/>
+
+    <RadioButton
+        android:id="@+id/rbtn_boardmarket"
+        style="@style/Style.TabBottom"
+        android:drawableTop="@drawable/sel_tab_boardmarket"
+        android:text="@string/tab_boardmarket"/>
+
+    <RadioButton
+        android:id="@+id/rbtn_cinema"
+        style="@style/Style.TabBottom"
+        android:drawableTop="@drawable/sel_tab_cinema"
+        android:text="@string/tab_cinema"/>
+
+    <RadioButton
+        android:id="@+id/rbtn_library"
+        style="@style/Style.TabBottom"
+        android:drawableTop="@drawable/sel_tab_library"
+        android:text="@string/tab_library"/>
+
+</RadioGroup>

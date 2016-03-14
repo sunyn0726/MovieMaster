@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">电影大师</string>
+    <string name="tab_cinema">影院</string>
+    <string name="tab_library">影库</string>
+    <string name="tab_boardmarket">排片</string>
+    <string name="tab_ticket">票房</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

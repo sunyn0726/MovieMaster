@@ -1,0 +1,29 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:windowBackground">@color/bg_window</item>
+    </style>
+
+    <style name="Style"/>
+
+    <style name="Style.TabBottom" parent="Style">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:button">@null</item>
+        <item name="android:textSize">@dimen/text_tab</item>
+        <item name="android:drawablePadding">2dp</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:textColor">@drawable/sel_bg_tab_text</item>
+    </style>
+
+    <style name="Style.Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">#ececec</item>
+    </style>
+
+</resources>
